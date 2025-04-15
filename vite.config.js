@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/melodia-page/', 
+  base: '/cp5/',
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,
